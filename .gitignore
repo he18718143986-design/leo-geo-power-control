@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Optimization cache & generated outputs
+results_all.npz
+figures/
+*.png
+*.jpg
+*.pdf
+
+# Extra frequency bands (not included; bring your own STK exports)
+# link/Link_1[2-8]GHz_BPSK.csv
+# Interference/Interference_1[2-8]GHz_BPSK.csv
+# Satellite/[12-18]GHz_BPSK/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
